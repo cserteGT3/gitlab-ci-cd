@@ -1,10 +1,12 @@
 # Lightweight CI/CD Docker image
 
+[![Docker](https://github.com/cserteGT3/gitlab-ci-cd/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/cserteGT3/gitlab-ci-cd/actions/workflows/docker-publish.yml)
+
 Originally created by jimmyadaro at [jimmyadaro/gitlab-ci-cd](https://github.com/jimmyadaro/gitlab-ci-cd/)
 
 **Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.**
 
-Available at `ghcr.io...`
+Available at `ghcr.io/csertegt3/gitlab-ci-cd:main`
 
 It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor. 
 
