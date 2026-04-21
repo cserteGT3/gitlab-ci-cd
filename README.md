@@ -6,11 +6,13 @@ Originally created by jimmyadaro at [jimmyadaro/gitlab-ci-cd](https://github.com
 
 **Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.**
 
-Available at `ghcr.io/csertegt3/gitlab-ci-cd:main`
+Available at `ghcr.io/csertegt3/gitlab-ci-cd:main`.
 
-It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor. 
+It is recommended to use the `monthly` tag, that is buil on the first day every month: `ghcr.io/csertegt3/gitlab-ci-cd:monthly`.
 
-The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_DATE=$(TZ="America/Argentina/Buenos_Aires" date +%F_%H-%M-%S);` 
+It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor.
+
+The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_DATE=$(TZ="America/Argentina/Buenos_Aires" date +%F_%H-%M-%S);`
 
 ## Includes
 
@@ -41,7 +43,7 @@ The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_
 
 ### tzdata
 
-> "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe" 
+> "The Time Zone Database (often called tz or zoneinfo) contains code and data that represent the history of local time for many representative locations around the globe"
 >
 > https://www.iana.org/time-zones
 
