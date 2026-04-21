@@ -1,16 +1,16 @@
 # Lightweight CI/CD Docker image
 
-![Docker Build Status](https://img.shields.io/docker/build/jimmyadaro/gitlab-ci-cd.svg) ![Docker Build Status](https://img.shields.io/docker/automated/jimmyadaro/gitlab-ci-cd.svg)
+Originally created by jimmyadaro at [jimmyadaro/gitlab-ci-cd](https://github.com/jimmyadaro/gitlab-ci-cd/)
 
-#### Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.
+**Created for simple CI/CD Pipelines* such as Bitbucket's or GitLab's.**
 
-Available at Docker Hub: [https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd](https://hub.docker.com/r/jimmyadaro/gitlab-ci-cd)
+Available at `ghcr.io...`
 
 It uses `bash`, `SSH` and `LFTP` to connect a remote server and _mirror_ (upload) the Git repository using the Git CI/CD repo vendor. 
 
 The `tzdata` package is to set the TimeZone when using `date` like so: `CURRENT_DATE=$(TZ="America/Argentina/Buenos_Aires" date +%F_%H-%M-%S);` 
 
-## Includes:
+## Includes
 
 ### Alpine Linux
 
